@@ -1,0 +1,125 @@
+ 
+/*========================*/
+  /*Navigation Section*/
+/*=======================*/
+.navbar {
+    -webkit-box-shadow: 2px 2px 5px #3292a6;
+            box-shadow: 2px 2px 5px #3292a6;
+    background: #ffffff;
+    opacity: 0.9;
+}
+
+.navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px;
+}
+
+.navbar .nav-item:last-child {
+    padding-right: 0;
+}
+
+.navbar .nav-item .nav-link {
+    color: #252525;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #3292a6;
+}
+
+
+/* ======================= */
+   /* Bannner-section */
+/*========================*/
+
+#banner{
+	background:url(img/mountains.jpg);
+	min-height: 600px;
+	position: relative;
+}
+.parimary-overlay{
+	background-color:rgba(50,146,156,0.7);
+	min-height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+body{
+	margin-top:90px;
+}
+.btn{
+	border-radius: 0;
+}
+button:focus{
+	outline: 0;
+}
+
+ /* ======================= */
+   /* Subscribe-section */
+/*========================*/
+#subscribe{
+	background: #252525;
+}
+.form-control{
+	border-radius: 0;
+}
+.btn-primary{
+	background:#3292a6;
+	border-color: #3292a6;
+}
+.btn-primary:hover{
+	background: #297889;
+	border-color: #26707f;
+
+}
+/* ======================= */
+   /* Box-Section */
+/*========================*/
+.bg-primary{
+	background:#3292a6 !important;
+ }
+.card{
+	border-radius: 0;
+}
+.text-primary{
+	color: #3292a6 !important;
+
+}
+/* ======================= */
+   /* Service-Section */
+/*========================*/
+#Service img{
+	margin-top: -50px;
+}
+
+#Service .card:hover{
+	background: #3292a6;
+	color: #fff;
+}
+#Service .fab{
+	font-size: 25px;
+	color:#3292a6;
+ }
+
+ 
+#Service .card:hover .fab{
+	color:#fff;
+}
+
+
+
+.custom-form{
+	min-height: 200px;
+}
+
+
+
+ @media (max-width: 575.98px) {
+ 	#banner h1{
+ 		font-size: 4rem;
+ 	}
+ 	.custom-form{
+	min-height: 150px;
+	} 
+ }
